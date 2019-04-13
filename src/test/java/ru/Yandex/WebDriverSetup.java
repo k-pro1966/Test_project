@@ -19,6 +19,7 @@ public class WebDriverSetup {
 
     @After
     public void Close() {
+        driver.close();
         driver.quit();
     }
 
