@@ -24,7 +24,7 @@ public class Test1 extends WebDriverSetup{
         driver.findElementByLinkText("Lenovo").click();
 
         int count = driver.findElementsByClassName("link n-link_theme_blue i-bem link_js_inited").size();
-        System.out.print("Элементов");
+        System.out.print("Элементов ");
         System.out.println(count);
         Assert.assertEquals(12,count);
 
@@ -45,7 +45,7 @@ public class Test1 extends WebDriverSetup{
         driver.findElementByLinkText("HP").click();
 
         int count = driver.findElementsByClassName("link n-link_theme_blue i-bem link_js_inited").size();
-        System.out.print("Элементов");
+        System.out.print("Элементов ");
         System.out.println(count);
         Assert.assertEquals(12,count);
 
